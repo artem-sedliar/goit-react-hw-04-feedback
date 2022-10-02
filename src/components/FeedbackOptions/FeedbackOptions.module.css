@@ -1,0 +1,20 @@
+.filterBtn {
+  padding: 5px 20px;
+  background-color: lightslategray;
+  border-radius: 15px;
+
+  font-weight: 700;
+  color: aliceblue;
+
+  cursor: pointer;
+
+  transition: background-color 300ms;
+}
+
+.filterBtn:not(:last-child) {
+  margin-right: 10px;
+}
+
+.filterBtn:hover {
+  background-color: rgb(56, 56, 56);
+}
