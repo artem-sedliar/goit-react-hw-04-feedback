@@ -48,7 +48,7 @@ function App() {
         />
       </Section>
       <Section title="Statistics">
-        {countTotalFeedback() !== 0 ? (
+        
           <Statistics
             good={good}
             neutral={neutral}
@@ -56,9 +56,9 @@ function App() {
             total={countTotalFeedback}
             positivePercentage={countPositiveFeedbackPercentage}
           />
-        ) : (
+       
           <Notification message="There is no feedback!" />
-        )}
+        
       </Section>
     </>
   );
